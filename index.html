@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- SEO GLOBAL -->
+    <title>WealthStack AI: Smart Finance & Passive Income Strategies 2025</title>
+    <meta name="description" content="Expert insights on AI side hustles, real estate automation, and high-yield insurance strategies for building wealth in the digital age.">
+    <meta name="keywords" content="AI investing, mortgage automation, insurance tech, passive income, side hustles 2025, financial freedom, credit card strategies, legal tech settlements">
+    <meta name="robots" content="index, follow">
+
+    <!-- JSON-LD SCHEMA (Organization) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "NewsMediaOrganization",
+      "name": "WealthStack AI",
+      "url": "https://your-domain.pages.dev",
+      "logo": "https://cdn-icons-png.flaticon.com/512/4206/4206263.png"
+    }
+    </script>
+
+    <!-- MONETAG HEAD SCRIPT HERE -->
+    <!-- <script src="..."></script> -->
+
+    <style>
+        /* --- CSS VARIABLES & RESET --- */
+        :root {
+            --primary: #0f172a;     /* Deep Navy - Trustworthy */
+            --accent: #2563eb;      /* Bright Blue - Action */
+            --success: #16a34a;     /* Green - Money */
+            --bg: #f1f5f9;
+            --card-bg: #ffffff;
+            --text-main: #334155;
+            --text-light: #64748b;
+            --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: var(--font-main);
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        a { text-decoration: none; color: inherit; transition: 0.2s; }
+        a:hover { color: var(--accent); }
+
+        /* --- LAYOUT UTILS --- */
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 15px; }
+        .grid { display: grid; gap: 20px; }
+        .hidden { display: none !important; }
+        .btn { 
+            display: inline-block; padding: 10px 20px; 
+            border-radius: 6px; font-weight: 600; cursor: pointer; text-align: center;
+        }
+        .btn-primary { background: var(--accent); color: white; }
+        .btn-success { background: var(--success); color: white; box-shadow: 0 4px 10px rgba(22, 163, 74, 0.2); }
+
+        /* --- HEADER --- */
+        header { background: white; border-bottom: 1px solid #e2e8f0; position: sticky; top: 0; z-index: 999; }
+        .nav-wrapper { display: flex; justify-content: space-between; align-items: center; height: 70px; }
+        .logo { font-size: 1.5rem; font-weight: 800; color: var(--primary); letter-spacing: -1px; display: flex; align-items: center; gap: 8px; }
+        .logo span { color: var(--accent); }
+        .nav-links a { margin-left: 20px; font-weight: 500; font-size: 0.95rem; color: var(--text-main); cursor: pointer; }
+        .nav-links a.active { color: var(--accent); font-weight: 700; }
+        .mobile-menu-btn { display: none; font-size: 1.5rem; cursor: pointer; }
+
+        /* --- HERO SECTION --- */
+        .hero { 
+            background: linear-gradient(135deg, var(--primary) 0%, #1e3a8a 100%); 
+            color: white; padding: 60px 0; text-align: center; margin-bottom: 30px;
+        }
+        .hero h1 { font-size: 2.8rem; margin-bottom: 15px; line-height: 1.2; }
+        .hero p { font-size: 1.2rem; opacity: 0.9; max-width: 700px; margin: 0 auto 30px; }
+        
+        /* --- MAIN CONTENT AREA --- */
+        .content-wrapper { display: grid; grid-template-columns: 2fr 1fr; gap: 30px; margin-bottom: 50px; }
+
+        /* CARD STYLES */
+        .card { background: var(--card-bg); border-radius: 12px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.03); transition: transform 0.2s; border: 1px solid #e2e8f0; display: flex; flex-direction: column; }
+        .card:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.06); }
+        .card-img { width: 100%; height: 200px; object-fit: cover; background-color: #cbd5e1; }
+        .card-body { padding: 20px; flex-grow: 1; display: flex; flex-direction: column; }
+        .card-tag { font-size: 0.75rem; text-transform: uppercase; font-weight: 700; color: var(--accent); margin-bottom: 8px; }
+        .card-title { font-size: 1.25rem; font-weight: 700; margin-bottom: 10px; line-height: 1.3; color: var(--primary); }
+        .card-excerpt { font-size: 0.95rem; color: var(--text-light); margin-bottom: 20px; flex-grow: 1; }
+        .read-more { margin-top: auto; font-weight: 600; color: var(--accent); cursor: pointer; }
+
+        /* SIDEBAR */
+        .sidebar-widget { background: white; padding: 20px; border-radius: 12px; border: 1px solid #e2e8f0; margin-bottom: 20px; }
+        .widget-title { font-size: 1.1rem; font-weight: 700; margin-bottom: 15px; border-bottom: 2px solid var(--bg); padding-bottom: 10px; }
+        .trending-list li { list-style: none; margin-bottom: 15px; padding-bottom: 15px; border-bottom: 1px solid #f1f5f9; }
+        .trending-list li:last-child { border: none; padding: 0; margin: 0; }
+        .trending-link { font-weight: 600; font-size: 0.95rem; display: block; margin-bottom: 5px; cursor: pointer; }
+        .trending-meta { font-size: 0.8rem; color: #94a3b8; }
+        
+        /* AD SPOTS */
+        .ad-box { background: #e2e8f0; display: flex; align-items: center; justify-content: center; color: #94a3b8; font-size: 0.8rem; border-radius: 8px; margin: 20px 0; overflow: hidden; }
+        .ad-sidebar { height: 250px; }
+        .ad-banner { height: 100px; width: 100%; margin-bottom: 30px; }
+        .ad-in-article { height: 250px; width: 100%; margin: 30px 0; }
+
+        /* --- ARTICLE VIEW (HIDDEN BY DEFAULT) --- */
+        .article-view { background: white; padding: 40px; border-radius: 12px; border: 1px solid #e2e8f0; }
+        .article-header { margin-bottom: 30px; border-bottom: 1px solid #e2e8f0; padding-bottom: 20px; }
+        .article-h1 { font-size: 2.2rem; color: var(--primary); margin-bottom: 15px; line-height: 1.2; }
+        .article-meta { color: var(--text-light); font-size: 0.9rem; }
+        .article-body p { margin-bottom: 1.5em; font-size: 1.05rem; }
+        .article-body h2 { margin-top: 2em; margin-bottom: 0.8em; font-size: 1.6rem; color: var(--primary); }
+        .article-body ul { padding-left: 20px; margin-bottom: 1.5em; }
+        .article-body li { margin-bottom: 0.5em; }
+        .back-btn { margin-bottom: 20px; display: inline-flex; align-items: center; gap: 5px; color: var(--text-light); cursor: pointer; }
+
+        /* FOOTER */
+        footer { background: var(--primary); color: white; padding: 50px 0 20px; margin-top: auto; }
+        .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 30px; margin-bottom: 40px; }
+        .footer-col h4 { font-size: 1.1rem; margin-bottom: 20px; color: white; }
+        .footer-col a { display: block; color: #94a3b8; margin-bottom: 10px; font-size: 0.9rem; }
+        .footer-col a:hover { color: white; }
+        .copyright { text-align: center; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px; font-size: 0.85rem; color: #64748b; }
+
+        @media (max-width: 768px) {
+            .content-wrapper { grid-template-columns: 1fr; }
+            .nav-links { display: none; } 
+            .mobile-menu-btn { display: block; }
+            .hero h1 { font-size: 2rem; }
+            .article-view { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <header>
+        <div class="container nav-wrapper">
+            <a href="#" onclick="showHome()" class="logo">WealthStack<span>AI</span></a>
+            <nav class="nav-links">
+                <!-- Navigation Filters -->
+                <a onclick="filterArticles('all')">Home</a>
+                <a onclick="filterArticles('investing')">Investing</a>
+                <a onclick="filterArticles('insurance')">Insurance</a>
+                <a onclick="filterArticles('credit')">Credit</a>
+                
+                <!-- Direct Link Trigger -->
+                <a onclick="triggerDirectLink()" class="btn btn-primary" style="margin-left: 20px; color: white;">Get Started</a>
+            </nav>
+            <div class="mobile-menu-btn">☰</div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="hero-section" class="hero">
+        <div class="container">
+            <h1>Master Your Wealth in the AI Era</h1>
+            <p>Strategies for high-net-worth individuals to automate income, optimize taxes, and leverage AI in real estate & insurance.</p>
+            <button onclick="window.location.href='https://otieu.com/4/10306864'" class="btn btn-success">Download 2025 Wealth Report</button>
+        </div>
+    </section>
+
+    <div class="container">
+        <!-- TOP AD BANNER -->
+        <div class="ad-box ad-banner">
+            <!-- MONETAG BANNER CODE HERE -->
+            Leaderboard Banner (728x90)
+        </div>
+
+        <div class="content-wrapper">
+            
+            <!-- MAIN CONTENT COLUMN -->
+            <main id="main-content">
+                
+                <!-- HOME GRID VIEW -->
+                <div id="home-view" class="grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));">
+                    
+                    <!-- Article 1: Insurance -->
+                    <div class="card" data-category="insurance">
+                        <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=600&q=80" class="card-img" alt="Insurance">
+                        <div class="card-body">
+                            <div class="card-tag">Insurance Tech</div>
+                            <h3 class="card-title">How AI is Revolutionizing Life Insurance Premiums in 2025</h3>
+                            <p class="card-excerpt">AI analysis of health data could lower your premiums by 30%. Discover the top insurers adopting this tech.</p>
+                            <div onclick="showArticle(1)" class="read-more">Read Article →</div>
+                        </div>
+                    </div>
+
+                    <!-- Article 2: Real Estate -->
+                    <div class="card" data-category="real-estate">
+                        <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=600&q=80" class="card-img" alt="Real Estate">
+                        <div class="card-body">
+                            <div class="card-tag">Real Estate & Loans</div>
+                            <h3 class="card-title">Automated Mortgage Refinancing: Is It Safe?</h3>
+                            <p class="card-excerpt">Banks are using algorithms to approve loans in minutes. How to position your credit score for instant approval.</p>
+                            <div onclick="showArticle(2)" class="read-more">Read Article →</div>
+                        </div>
+                    </div>
+
+                    <!-- Article 3: Investing -->
+                    <div class="card" data-category="investing">
+                        <!-- GANTI GAMBAR TRADING (Updated Link) -->
+                        <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img" alt="Trading">
+                        <div class="card-body">
+                            <div class="card-tag">Investing</div>
+                            <h3 class="card-title">Algorithmic Trading for Beginners: 5 Tools to Start</h3>
+                            <p class="card-excerpt">Stop guessing the market. Use these AI-powered hedge fund tools available to retail investors today.</p>
+                            <div onclick="showArticle(3)" class="read-more">Read Article →</div>
+                        </div>
+                    </div>
+
+                    <!-- Article 4: Side Hustle -->
+                    <div class="card" data-category="investing">
+                        <img src="https://images.unsplash.com/photo-1553729459-efe14ef6055d?auto=format&fit=crop&w=600&q=80" class="card-img" alt="Passive Income">
+                        <div class="card-body">
+                            <div class="card-tag">Side Hustle</div>
+                            <h3 class="card-title">Top 5 AI Tools Generating $1,000/Month Passively</h3>
+                            <p class="card-excerpt">Don't trade time for money. Leverage these automated systems to build a digital asset portfolio.</p>
+                            <div onclick="showArticle(4)" class="read-more">Read Article →</div>
+                        </div>
+                    </div>
+
+                    <!-- Article 5: Credit Cards (NEW) -->
+                    <div class="card" data-category="credit">
+                        <!-- GANTI GAMBAR KARTU KREDIT -->
+                        <img src="https://images.unsplash.com/photo-1563013544-824ae1b704d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" class="card-img" alt="Credit Cards">
+                        <div class="card-body">
+                            <div class="card-tag">Credit & Travel</div>
+                            <h3 class="card-title">AI Credit Hacking: Maximize Travel Points in 2025</h3>
+                            <p class="card-excerpt">Use AI to track sign-up bonuses and optimize spending categories automatically. Fly business class for free.</p>
+                            <div onclick="showArticle(5)" class="read-more">Read Article →</div>
+                        </div>
+                    </div>
+
+                    <!-- Article 6: Legal Tech (NEW) -->
+                    <div class="card" data-category="legal">
+                        <img src="https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&w=600&q=80" class="card-img" alt="Legal Tech">
+                        <div class="card-body">
+                            <div class="card-tag">Legal Tech</div>
+                            <h3 class="card-title">AI in Lawsuits: Predicting Settlement Values</h3>
+                            <p class="card-excerpt">How lawyers are using AI to calculate personal injury settlements instantly. Know your claim's true worth.</p>
+                            <div onclick="showArticle(6)" class="read-more">Read Article →</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- SINGLE ARTICLE VIEW (Initially Hidden) -->
+                <div id="article-view" class="article-view hidden">
+                    <div class="back-btn" onclick="showHome()">← Back to Home</div>
+                    
+                    <article>
+                        <header class="article-header">
+                            <div id="art-tag" class="card-tag">Category</div>
+                            <h1 id="art-title" class="article-h1">Article Title Placeholder</h1>
+                            <div class="article-meta">
+                                By <span id="art-author">Editor</span> • Updated <span id="art-date">Today</span>
+                            </div>
+                        </header>
+                        
+                        <!-- High CPM Ad Spot Inside Article -->
+                        <div class="ad-box ad-in-article">
+                            <!-- MONETAG NATIVE BANNER -->
+                            Advertisement (300x250)
+                        </div>
+
+                        <div id="art-content" class="article-body">
+                            <!-- Content injected via JS -->
+                        </div>
+
+                        <!-- Bottom Call to Action -->
+                        <div style="margin-top: 40px; text-align: center; background: #f8fafc; padding: 30px; border-radius: 8px;">
+                            <h3>Ready to Secure Your Financial Future?</h3>
+                            <p style="margin-bottom: 20px;">Get our exclusive list of high-yield AI assets.</p>
+                            <button onclick="triggerDirectLink()" class="btn btn-primary">Reveal Strategies</button>
+                        </div>
+                    </article>
+                </div>
+
+            </main>
+
+            <!-- SIDEBAR COLUMN -->
+            <aside class="sidebar">
+                
+                <!-- Search Widget (Dummy) -->
+                <div class="sidebar-widget">
+                    <input type="text" placeholder="Search topics..." style="width: 100%; padding: 10px; border: 1px solid #cbd5e1; border-radius: 4px;">
+                </div>
+
+                <!-- High CPM Trending List -->
+                <div class="sidebar-widget">
+                    <h4 class="widget-title">Trending Now</h4>
+                    <ul class="trending-list">
+                        <li>
+                            <a onclick="triggerDirectLink()" class="trending-link">Best Life Insurance for Seniors 2025</a>
+                            <span class="trending-meta">4 min read • Insurance</span>
+                        </li>
+                        <li>
+                            <a onclick="triggerDirectLink()" class="trending-link">Refinance Mortgage Rates Today</a>
+                            <span class="trending-meta">3 min read • Finance</span>
+                        </li>
+                        <li>
+                            <a onclick="triggerDirectLink()" class="trending-link">Mesothelioma Lawsuit Settlements</a>
+                            <span class="trending-meta">High Value • Legal</span>
+                        </li>
+                        <li>
+                            <a onclick="triggerDirectLink()" class="trending-link">Top 10 Credit Cards for Travel</a>
+                            <span class="trending-meta">5 min read • Credit</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Sticky Sidebar Ad -->
+                <div class="ad-box ad-sidebar" style="position: sticky; top: 90px;">
+                    <!-- MONETAG SKYSCRAPER -->
+                    Sidebar Ad (160x600)
+                </div>
+
+            </aside>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>WealthStack AI</h4>
+                    <p style="font-size: 0.9rem; color: #94a3b8; line-height: 1.6;">
+                        Your trusted source for financial intelligence in the age of artificial intelligence. We help you navigate the future of money.
+                    </p>
+                </div>
+                <div class="footer-col">
+                    <h4>Categories</h4>
+                    <a onclick="filterArticles('investing')">Investing</a>
+                    <a onclick="filterArticles('credit')">Credit Cards</a>
+                    <a onclick="filterArticles('insurance')">Insurance</a>
+                    <a onclick="filterArticles('all')">Technology</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <a href="https://otieu.com/4/10306864">Privacy Policy</a>
+                    <a href="https://otieu.com/4/10306864">Terms of Service</a>
+                    <a href="https://otieu.com/4/10306864">Disclaimer</a>
+                    <a href="https://otieu.com/4/10306864">Contact Us</a>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; 2025 WealthStack AI. All rights reserved. This site is for educational purposes only.
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // CONFIGURATION
+        const directLink = "https://otieu.com/4/10306864"; // GANTI DENGAN DIRECT LINK MONETAG ANDA
+
+        // DATA ARTIKEL
+        const articles = {
+            1: {
+                tag: "Insurance Tech",
+                title: "How AI is Revolutionizing Life Insurance Premiums in 2025",
+                content: `
+                    <p>The insurance industry is undergoing a massive shift. Traditional actuarial tables are being replaced by real-time data analytics powered by Artificial Intelligence. This shift is creating opportunities for policyholders to drastically reduce their monthly expenses.</p>
+                    <h2>Why This Matters for Your Wallet</h2>
+                    <p>In 2025, major carriers are offering <strong>dynamic pricing models</strong>. By allowing insurers to access health data from wearables like Apple Watch or Fitbit, policyholders are seeing premium reductions of up to 30%. This "interactive insurance" model rewards healthy lifestyles with direct savings.</p>
+                    <p>However, this raises questions about privacy and data security. The trade-off is clear: share more data, pay less money. For the healthy demographic, this is a goldmine. Insurers are now predicting risks with 90% accuracy, cutting overhead costs which are passed down to you.</p>
+                    <h2>Top Insurers Using AI</h2>
+                    <ul>
+                        <li><strong>Lemonade:</strong> Uses bots to handle claims in seconds, setting a world record for payment speed.</li>
+                        <li><strong>Hippo:</strong> Uses satellite imagery to assess property risks before you even apply.</li>
+                        <li><strong>Root:</strong> Bases car insurance rates on actual driving behavior measured by your phone.</li>
+                    </ul>
+                    <p>Before renewing your policy this year, ensure you check if your provider offers telematics discounts. Switching providers could save you thousands annually.</p>
+                `
+            },
+            2: {
+                tag: "Real Estate",
+                title: "Automated Mortgage Refinancing: Is It Safe?",
+                content: `
+                    <p>Gone are the days of waiting weeks for a loan officer to call you back. Digital lenders are now using AI to underwrite mortgages in under 24 hours. This speed is reshaping the housing market.</p>
+                    <h2>The Speed of Capital</h2>
+                    <p>For real estate investors, speed is everything. Automated refinancing allows you to pull equity out of properties faster than ever, enabling rapid portfolio scaling. This is known as the BRRRR strategy (Buy, Rehab, Rent, Refinance, Repeat) on steroids.</p>
+                    <h2>How AI Assesses You</h2>
+                    <p>Algorithms now look beyond just FICO scores. They analyze cash flow, rent payment history, and even career trajectory. This "holistic" view helps gig economy workers get approved where traditional banks would say no.</p>
+                    <p>Check your credit score today. If it's above 720, you are likely eligible for algorithmic instant-approval lanes which often come with lower closing costs.</p>
+                `
+            },
+            3: {
+                tag: "Investing",
+                title: "Algorithmic Trading for Beginners: 5 Tools to Start",
+                content: `
+                    <p>Retail investors are finally getting access to the tools that Wall Street has used for decades. You don't need a PhD in math to use AI trading bots; you just need to know which platforms are legitimate.</p>
+                    <h2>Robo-Advisors vs. AI Bots</h2>
+                    <p>While robo-advisors simply rebalance your portfolio based on age/risk, true AI trading bots execute trades based on market sentiment analysis. They scan news, Reddit, and earnings reports in milliseconds.</p>
+                    <p>Tools like <strong>TradeIdeas</strong> and <strong>Tickeron</strong> are leading the charge. They offer "signals" that tell you exactly when to enter and exit a trade with statistical probability attached.</p>
+                    <p><strong>Warning:</strong> Start small. Backtest your strategies using historical data before putting real money on the line. Never invest money you can't afford to lose.</p>
+                `
+            },
+            4: {
+                tag: "Side Hustle",
+                title: "Top 5 AI Tools Generating $1,000/Month Passively",
+                content: `
+                    <p>Passive income is the holy grail. AI makes it accessible. Here are the top methods working right now for digital nomads and side hustlers.</p>
+                    <h2>1. AI Print on Demand</h2>
+                    <p>Use Midjourney V6 to create hyper-realistic designs. Upload them to Printful or Redbubble. Sell on Etsy. The fulfillment is automated, you just handle the creative direction.</p>
+                    <h2>2. Faceless YouTube Automation</h2>
+                    <p>Use ChatGPT for scripts and ElevenLabs for voice. Target high CPM niches like Finance, Tech Reviews, or True Crime. You never have to show your face.</p>
+                    <h2>3. Affiliate Marketing with AI SEO</h2>
+                    <p>Build niche sites (like this one!) and use AI to generate volume content that ranks for specific buyer-intent keywords. Focus on software reviews.</p>
+                `
+            },
+            5: {
+                tag: "Credit & Travel",
+                title: "AI Credit Hacking: Maximize Travel Points in 2025",
+                content: `
+                    <p>Travel for free by mastering the art of "Churning" with the help of AI. It's not about spending more; it's about optimizing how you pay.</p>
+                    <h2>The AI Advantage</h2>
+                    <p>New apps link to your accounts and use AI to tell you exactly which card to use for every purchase to maximize points. They also track sign-up bonus deadlines so you never miss a 100,000 point bonus.</p>
+                    <h2>Top Strategies</h2>
+                    <ul>
+                        <li><strong>Category Optimization:</strong> AI alerts you when quarterly categories (like Gas or Groceries) change.</li>
+                        <li><strong>Retention Offers:</strong> Bots can script what to say to customer service to waive your annual fees.</li>
+                    </ul>
+                    <p>With the right stack of cards, a middle-class spender can earn 2-3 international business class flights per year.</p>
+                `
+            },
+            6: {
+                tag: "Legal Tech",
+                title: "AI in Lawsuits: Predicting Settlement Values",
+                content: `
+                    <p>The legal field is notoriously opaque. However, AI is shining a light on settlement values, empowering plaintiffs in personal injury cases.</p>
+                    <h2>Know Your Worth</h2>
+                    <p>Legal AI tools analyze thousands of past court cases in your jurisdiction to predict the settlement value of an injury claim. This prevents insurance companies from low-balling you.</p>
+                    <p>If you are involved in a dispute, ask your attorney if they use predictive analytics. Data-backed negotiation is far more powerful than emotional arguments.</p>
+                    <p>This technology is particularly impacting <strong>Mesothelioma</strong> and <strong>Medical Malpractice</strong> suits, where settlement ranges can vary by millions.</p>
+                `
+            }
+        };
+
+        // NAVIGATION & FILTERING LOGIC
+        function showHome() {
+            document.getElementById('home-view').classList.remove('hidden');
+            document.getElementById('hero-section').classList.remove('hidden');
+            document.getElementById('article-view').classList.add('hidden');
+            window.scrollTo(0, 0);
+        }
+
+        function filterArticles(category) {
+            // First, ensure we are on the home view
+            showHome();
+
+            // Select all cards
+            const cards = document.querySelectorAll('.card');
+            
+            cards.forEach(card => {
+                const cardCat = card.getAttribute('data-category');
+                
+                if (category === 'all' || cardCat === category) {
+                    card.classList.remove('hidden');
+                } else {
+                    card.classList.add('hidden');
+                }
+            });
+        }
+
+        function showArticle(id) {
+            const data = articles[id];
+            if(!data) return;
+
+            document.getElementById('art-tag').innerText = data.tag;
+            document.getElementById('art-title').innerText = data.title;
+            document.getElementById('art-content').innerHTML = data.content;
+            
+            // Switch views
+            document.getElementById('home-view').classList.add('hidden');
+            document.getElementById('hero-section').classList.add('hidden'); 
+            document.getElementById('article-view').classList.remove('hidden');
+            
+            window.scrollTo(0, 0);
+        }
+
+        function triggerDirectLink() {
+            if(directLink === "https://otieu.com/4/10306864" || directLink === "") {
+                alert("Please configure your Monetag Direct Link first!");
+            } else {
+                window.open(directLink, '_blank');
+            }
+        }
+    </script>
+</body>
+</html>
